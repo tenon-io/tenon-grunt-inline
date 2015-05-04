@@ -1,8 +1,9 @@
 /*
- * grunt-tenon
- * https://github.com/morgan/tenon-grunt
+ * tenon-grunt-inline
+ * https://github.com/tenon-io/tenon-grunt-inline
  *
- * Copyright (c) 2015 Morgan 'ARR\!' Allen
+ * Copyright (c) 2015 Tenon LLC
+ * Created By: Morgan 'ARR\!' Allen http://github.com/morganrallen
  * Licensed under the MIT license.
  */
 
@@ -67,5 +68,4 @@ module.exports = function(grunt) {
 
   // By default, lint and run all tests.
   grunt.registerTask('default', ['jshint', 'test']);
-
 };

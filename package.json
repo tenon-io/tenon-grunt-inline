@@ -1,23 +1,23 @@
 {
-  "name": "grunt-tenon",
-  "description": "The best Grunt plugin ever.",
+  "name": "tenon-grunt-inline",
+  "description": "Bundle assets for testing with tenon.io.",
   "version": "0.1.0",
-  "homepage": "https://github.com/morgan/tenon-grunt",
+  "homepage": "https://github.com/tenon-io/tenon-grunt",
   "author": {
     "name": "Morgan 'ARR\\!' Allen",
     "email": "morganrallen@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/morgan/tenon-grunt.git"
+    "url": "git://github.com/tenon-io/tenon-grunt-inline.git"
   },
   "bugs": {
-    "url": "https://github.com/morgan/tenon-grunt/issues"
+    "url": "https://github.com/tenon-io/tenon-grunt-inline/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/morgan/tenon-grunt/blob/master/LICENSE-MIT"
+      "url": "https://github.com/tenon-io/tenon-grunt-inline/blob/master/LICENSE-MIT"
     }
   ],
   "engines": {
