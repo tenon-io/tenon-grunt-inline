@@ -24,7 +24,7 @@ In your project's Gruntfile, add a section named `tenon` to the data object pass
 
 ```js
 grunt.initConfig({
-  tenon: {
+  tenonInline: {
     options: {
       input: "path/to/some/file.html",
       dest: "path/to/some/output.html",
@@ -60,7 +60,7 @@ In this example, the default options are used to do something with whatever. So 
 
 ```js
 grunt.initConfig({
-  tenon: {
+  tenonInline: {
     options: {
       input: "./static/index.html"
       dest: "./bundle/index.html"
@@ -73,7 +73,7 @@ grunt.initConfig({
 
 ```js
 grunt.initConfig({
-  tenon: {
+  tenonInline: {
     options: {
       input: "./static/index.html"
       dest: "./bundle/index.html",
