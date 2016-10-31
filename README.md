@@ -2,6 +2,8 @@
 
 > Bundle assets for testing with tenon.io.
 
+[![Build Status](https://travis-ci.org/tenon-io/tenon-grunt-inline.svg?branch=master)](https://travis-ci.org/tenon-io/tenon-grunt-inline)
+
 ## Getting Started
 This plugin requires Grunt `~0.4.5`
 
