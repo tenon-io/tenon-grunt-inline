@@ -30,7 +30,7 @@ module.exports = function (grunt) {
         },
 
         // Configuration to be run (and then tested).
-        tenon: {
+        tenonInline: {
             basic: {
                 options: {
                     dest: 'test/123_output.html',
@@ -64,7 +64,7 @@ module.exports = function (grunt) {
 
     // Whenever the 'test' task is run, first clean the 'tmp' dir, then run this
     // plugin's task(s), then test the result.
-    grunt.registerTask('test', ['clean', 'tenon', 'nodeunit']);
+    grunt.registerTask('test', ['clean', 'tenonInline', 'nodeunit']);
 
     // By default, lint and run all tests.
     grunt.registerTask('default', ['jshint', 'test']);
