@@ -1,7 +1,7 @@
 {
   "name": "tenon-grunt-inline",
   "description": "Bundle assets for testing with tenon.io.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/tenon-io/tenon-grunt",
   "author": {
     "name": "Morgan 'ARR\\!' Allen",
