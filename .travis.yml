@@ -1,8 +1,30 @@
 language: node_js
 node_js:
-- '6.5'
+- '8'
+- '10'
+- '12'
+- '14'
+- '16'
 before_install:
   - npm update -g npm
   - npm install -g grunt-cli
 before_script:
   - grunt
+install: npm install
+jobs:
+  include:
+    - stage: test
+      name: "Test cases"
+      script: npm run test
+    - stage: npm release
+      node_js: "16"
+      script: echo "Deploying to npm ..."
+      deploy:
+        provider: npm
+        api_token: '$NPM_TOKEN'
+        skip_cleanup: true
+        email: '$NPM_EMAIL'
+        on:
+          tags: true
+          all_branches: true
+          repo: tenon-io/tenon-grunt-inline
